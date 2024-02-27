@@ -2,8 +2,6 @@ original code for
 
 [Application of deep learning technology for temporal analysis of videofluoroscopic swallowing studies](https://doi.org/10.1038/s41598-023-44802-3)
 
-The code will be refined within February 2024
-
 The main command for (CONV-SA) is 
 ```terminal
 python vfssRGBsingleTrainTest_fixed.py --split_file [split_file_name.xlsx] --rgb_root [directory/path/for/rgb/frames] --frame_len 50 --sampling PE --modelName PEresNet3D18Attention4 --train_type _variMem --train_batch 10 --val_batch 10 --win_limit 10 --win_stride 50 --lr 0.005
